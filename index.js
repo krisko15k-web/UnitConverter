@@ -11,9 +11,9 @@ const feetToMeter = 0.304
 const gallonToLiter = 3.785
 const poundToKilo = 0.453
 
-btnConv.addEventListener("click", function() {
+btnConv.addEventListener("click", function () {
     let inputValue = inputNum.value
-    
+
     length.textContent = `${inputValue} meters = ${(inputValue * meterToFeet).toFixed(3)} feet |
      ${inputValue} feet = ${(inputValue * feetToMeter).toFixed(3)} meters`
     volume.textContent = `${inputValue} liters = ${(inputValue * literToGallon).toFixed(3)} gallons |
