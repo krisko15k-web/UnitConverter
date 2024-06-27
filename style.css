@@ -42,7 +42,7 @@ button {
   border-radius: 5px;
 }
 
-#unit {
+.unit {
   background: #273549;
   color: #ccc1ff;
   border: none;
